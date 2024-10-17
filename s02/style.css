@@ -1,0 +1,22 @@
+
+div ~ p{
+    background-color: yellow;
+}
+
+
+/* 
+.demo1{
+    color : red;
+}
+
+p.demo1{
+    text-align: center;
+}
+
+p,h2{
+    background-color: green;
+}
+
+*{
+    font-size: 40px;
+} */

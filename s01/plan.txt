@@ -1,0 +1,45 @@
+pour integrer CSS il existe 3 méthodes : 
+* element style dans le head
+* attribut style
+* fichier CSS séparé (style.css + link)
+
+selecteur {
+    rule1;
+    prop : val;
+
+}
+
+selecteur ?
+rules ?
+
+simples:
+
+le nom de l'élément html (p a h1 ...)
+.class
+#id
+
+complexes:
+
+el.el
+el el
+el > el
+el + el
+el + el.class
+
+ul > li {
+
+}
+
+ul,li {
+    
+}
+
+
+rules ?
+
+text
+positions
+animations
+borders 
+les ombres 
+...

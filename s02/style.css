@@ -1,7 +1,47 @@
-
-div ~ p{
+a[href^="http:"]{
     background-color: yellow;
 }
+
+
+/* li::before{
+    content: '**';
+}
+
+li::after{
+    content: '**';
+}
+
+p::first-letter{
+    color: red;
+}
+
+.hint{
+    display: none;
+    background-color: yellow;
+    padding: 20px;
+}
+
+#sws:hover .hint{
+    display: block;
+} */
+
+/* a{
+    color: aqua;
+}
+
+a:hover{
+    background-color: black;
+    color: white;
+}
+
+a:visited{
+    color: green;
+} */
+
+
+/* div ~ p{
+    background-color: yellow;
+} */
 
 
 /* 

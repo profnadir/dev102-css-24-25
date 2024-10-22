@@ -1,0 +1,29 @@
+@font-face {
+    font-family: my-font;
+    src: url('PlaywriteGBS-Italic-VariableFont_wght.ttf');
+}
+
+p{
+    text-align: justify;
+    direction: rtl;
+    font-family: my-font;
+}
+
+.article p{
+    padding-left: 20px;
+}
+
+h2+p{
+    background-color: yellow;
+}
+
+h2~p{
+    border: 1px solid black;
+}
+
+li > p{
+    background-color: rgba(0, 0, 0, 0.1);
+    /* color: rgb(140, 4, 170); */
+    /* color: #555FFF; */
+    /* color: green; */
+}

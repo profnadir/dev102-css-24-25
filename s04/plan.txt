@@ -1,0 +1,10 @@
+Utiliser les propriétés CSS
+
+1. Typographie
+2. Bordures et ombres
+3. Marges et padding
+4. Images
+5. Couleurs de fond
+6. Background
+7. Types de positionnement (relatif, absolu, float…)
+8. Utilisation des blocs Flex (FlexBox)

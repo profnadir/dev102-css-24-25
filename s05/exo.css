@@ -1,0 +1,29 @@
+.demo1{
+    background-color: black;
+    border: 1px solid black;
+    height: 100px;
+    width: 400px;
+}
+
+.demo2{
+    background-color: white;
+    border: 1px solid black;
+    height: 100px;
+    width: 400px;
+}
+
+.demo3{
+    background-color: green;
+    border: 1px solid black;
+    height: 100px;
+    width: 400px;
+}
+
+.demo4{
+    background-color: red;
+    border: 1px solid black;
+    height: 300px;
+    width: 150px;
+    position: relative;
+    bottom: 300px;
+}

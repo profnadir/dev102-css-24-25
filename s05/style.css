@@ -1,0 +1,127 @@
+.demo1{
+    background-color: black;
+    border: 1px solid black;
+    height: 100px;
+    width: 400px;
+    position: sticky;
+    top: 50px;
+}
+
+.demo2{
+    background-color: white;
+    border: 1px solid black;
+    height: 100px;
+    width: 400px;
+    position: sticky;
+    top: 150px;
+}
+
+.demo3{
+    background-color: green;
+    border: 1px solid black;
+    height: 100px;
+    width: 400px;
+    position: sticky;
+    top: 250px;
+
+    /* position: absolute;
+    top: 50px;
+    left: 50px;  */
+
+    /* bottom: 50px;
+    left: 50px; */
+    /* z-index: 90; */
+}
+
+
+.demo4{
+    background-color: red;
+    border: 1px solid red;
+    height: 500px;
+    width: 500px;
+    position: relative;
+}
+
+
+.demo5{
+    background-color: yellow;
+    border: 1px solid black;
+
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    /* position: fixed;
+    bottom: 50px;
+    right: 50px; */
+
+    position: sticky;
+    top: 50px;
+}
+
+
+body{
+    height: 5000px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* img{ */
+    /* max-width: 100%;
+    height: auto; */
+    /* text-align: center; */
+ /*    background-color: aquamarine;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; */
+
+    /* opacity: 0.2; */
+
+    /* filter: grayscale(100%); */
+
+/* } */
+
+/* body{ */
+/* 
+    margin: 0;
+    padding: 0;
+    
+    background-image: url('photo.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed; */
+
+    /* width: 200px;
+    height: 200px; */
+   /*  width: 100vw;
+    height: 5000px; */
+
+    /* background-color: aquamarine; */
+    /* text-align: center; */
+/* } */

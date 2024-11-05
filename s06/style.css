@@ -1,0 +1,58 @@
+.container{
+
+    display: flex;
+
+    flex-direction: row;
+   /*  flex-wrap: wrap; */
+
+    /* ==  */
+    /* flex-flow: row wrap; */
+
+    justify-content: center;
+    align-items: stretch;
+    
+
+    height: 100px;
+
+
+    background-color: aqua;
+
+}
+
+.item1{
+    background-color: red;
+    /* align-self: stretch; */
+    /* order: 5; */
+    /* flex-grow: 2; */
+    /* flex-basis: 200px; */
+    flex-shrink: 10;
+}
+
+.item2{
+    background-color: blue;
+    /* order: 2; */
+    /* flex-grow: 8; */
+    
+
+}
+
+.item3{
+    background-color: green;
+    /* order: 3; */
+   /*  flex-grow: 2; */
+   
+
+
+}
+
+.item4{
+    background-color: yellow;
+    /* order: 4; */
+
+}
+
+.item5{
+    background-color: orange;
+    /* order: 1; */
+
+}

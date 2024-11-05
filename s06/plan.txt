@@ -1,0 +1,13 @@
+Rappel :
+
+les positions : (top left right bottom)
+
+static: par defaut 
+relative: par a sa position initiale 
+fixed : fixer l'element par rapport a une position 
+absolute: par rapport a la position du pere (relative)
+sticky: relative + fixed
+
+Objectif :
+
+manipulation de flexbox

@@ -1,28 +1,31 @@
 .demo1{
     background-color: black;
-    border: 1px solid black;
+    border-right: 1px solid black;
     height: 100px;
     width: 400px;
 }
 
 .demo2{
     background-color: white;
-    border: 1px solid black;
+    border-right: 1px solid black;
     height: 100px;
     width: 400px;
 }
 
 .demo3{
     background-color: green;
-    border: 1px solid black;
+    border-right: 1px solid black;
     height: 100px;
     width: 400px;
 }
 
 .demo4{
-    background-color: red;
-    border: 1px solid black;
-    height: 300px;
+    /* background-color: red; */
+    border-top: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-bottom: 150px solid transparent;
+    border-left: 150px solid red;
+    /* height: 300px; */
     width: 150px;
     position: relative;
     bottom: 300px;

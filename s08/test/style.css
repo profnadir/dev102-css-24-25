@@ -1,0 +1,84 @@
+.demo2 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: dev102;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    animation-timing-function: ease-out;
+}
+
+@keyframes dev102 {
+/*     from {background-color: red;}
+    to {background-color: yellow;} */
+
+    0%   {background-color: red;
+            transform: translate(0,0) rotate(90deg);}
+    25%  {background-color: yellow;
+        transform: translate(200px,0) rotate(90deg);}
+    50%  {background-color: blue;
+        transform: translate(200px,200px);}
+    75% {background-color: orange;
+        transform: translate(0,200px);}
+    100% {background-color: green;
+        transform: translate(0,0);}
+}
+
+.demo1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.demo1 > img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 10px;
+    transition: all 2s;
+    border: 2px solid black;
+}
+
+.demo1 > img:hover {
+  transform: rotate(180deg);
+  /* transform: scale(1.2,1.2); */
+  /* transform: translateY(-50px); */
+  
+}
+
+/* 3 - Animations
+In this chapter you will learn about the following properties:
+
+@keyframes
+animation-name
+animation-duration
+animation-delay
+animation-iteration-count
+animation-direction
+animation-timing-function
+animation
+
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+
+div {
+  animation: example 5s linear 2s infinite alternate;
+} */
